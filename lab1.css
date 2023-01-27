@@ -1,0 +1,14 @@
+header, main, nav, footer {display: block;}
+body, h1, h2 {font: 75%/1.5 verdana,geneva,lucida,arial,sans-serif; margin: 0;}
+h1, h2, #content, #globalnav {position: absolute; top: 10px; left: 0; width: 340px;}
+h1 {font-size: 180%; letter-spacing: 2px;}
+h2 {font-size: 120%; font-style: italic; top: 15px; left: 330px; width: 450px; text-align: right;}
+#container {width: 780px; margin: 0 auto; position: relative; left: 0; top: 0;}
+#content {top: 60px; left: 180px; width: 600px;}
+#globalnav {top: 60px; width: 140px;}
+#globalnav li {margin-bottom: 3px; width: 140px;}
+#globalnav a {width: 126px; color: #000; border: 2px solid #ccc; background: #ccc; display: block; text-decoration: none; padding: 5px;}
+#globalnav a:hover, #globalnav a:focus {border-color: #000; color: #000; background: #fff;}
+#globalnav, #textnav {margin: 0; padding: 0; list-style: none;}
+#textnav {padding-top: 6em;}
+#textnav li {float: left; padding-right: 2em;}
