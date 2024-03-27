@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>Employee Time Sheet</title>
+  <link rel="stylesheet" href="lab3.css" />
+</head>
+<body>
+<form method="post" action="#">
+<table>
+<caption>Employee Time Sheet for: MM/DD/YYYY (Day of Week)</caption>
+<thead>
+<tr>
+  <th scope="col">Delete</th>
+  <th scope="col">Client</th>
+  <th scope="col">Description</th>
+  <th scope="col">Project</th>
+  <th scope="col" abbr="Type">Type of Work</th>
+  <th scope="col">Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><input type="checkbox" name="deleteRow" value="1" /></td>
+  <th scope="row">Client 1</th>
+  <td>Sub page template</td>
+  <td>Project 1</td>
+  <td>Front-End Coding</td>
+  <td><input type="text" size="3" name="hoursTask1" /></td>
+</tr>
+<tr>
+  <td><input type="checkbox" name="deleteRow" value="2" /></td>
+  <th scope="row">Client 2</th>
+  <td>JavaScript navigation menus</td>
+  <td>Project 2</td>
+  <td>Front-End Coding</td>
+  <td><input type="text" size="3" name="hoursTask2" /></td>
+</tr>
+<tr>
+  <td><input type="checkbox" name="deleteRow" value="3" /></td>
+  <th scope="row">Non-Billable</th>
+  <td></td>
+  <td>Lunch</td>
+  <td>Lunch</td>
+  <td><input type="text" size="3" name="hoursTask3" /></td>
+</tr>
+<tr>
+  <td><input type="checkbox" name="deleteRow" value="4" /></td>
+  <th scope="row">Non-Billable</th>
+  <td>Coding prototype layout</td>
+  <td>Intranet</td>
+  <td>Front-End Coding</td>
+  <td><input type="text" size="3" name="hoursTask4" /></td>
+</tr>
+<tr>
+  <td><input type="checkbox" name="deleteRow" value="5" /></td>
+  <th scope="row">Client 3</th>
+  <td>PHP &amp; mySQL connectivity</td>
+  <td>Project 3</td>
+  <td>Back-End Coding</td>
+  <td><input type="text" size="3" name="hoursTask5" /></td>
+</tr>
+</tbody>
+</table>
+<p id="save"><input type="submit" value="Save Changes" /></p>
+</form>
+<script src="lab3.js"></script>
+</body>
+</html>

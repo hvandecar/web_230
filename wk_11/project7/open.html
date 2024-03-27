@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>Workflow: Open Items for Delta Construction</title>
+  <link rel="stylesheet" href="css/workflow.css" />
+</head>
+<body>
+
+<header>
+  <h1>Workflow</h1>
+</header>
+
+<main id="content">
+
+ <div>
+
+  <h2>Open Items for Delta Construction (DECC)</h2>
+
+  <form id="actionForm" method="post" action="#">
+  </form>
+
+  <table id="projectsTbl">
+  <thead>
+  <tr>
+    <th scope="col">ID</th>
+    <th scope="col">Type</th>
+    <th scope="col">Description</th>
+    <th scope="col">Priority</th>
+    <th scope="col">Assigned</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr data-priority="high">
+    <th scope="row">54</th>
+    <td>Bug</td>
+    <td><a href="decc-54.html">Database connection limit exceeded</a></td>
+    <td>High</td>
+    <td></td>
+  </tr>
+  <tr data-priority="low">
+    <th scope="row">55</th>
+    <td>Bug</td>
+    <td><a href="decc-55.html">Typo in staff bio for John Doe</a></td>
+    <td>Low</td>
+    <td>Jim Smith</td>
+  </tr>
+  <tr data-priority="high">
+    <th scope="row">61</th>
+    <td>Task</td>
+    <td><a href="decc-61.html">Update security certificate</a></td>
+    <td>High</td>
+    <td>Jane Smith</td>
+  </tr>
+  <tr data-priority="medium">
+    <th scope="row">65</th>
+    <td>Bug</td>
+    <td><a href="decc-65.html">Hyphenated names not being handled properly in search</a></td>
+    <td>Medium</td>
+    <td></td>
+  </tr>
+  <tr data-priority="medium">
+    <th scope="row">80</th>
+    <td>Enhancement</td>
+    <td><a href="decc-80.html">Implement a print-specific stylesheet</a></td>
+    <td>Medium</td>
+    <td>Ted Jones</td>
+  </tr>
+  <tr data-priority="high">
+    <th scope="row">81</th>
+    <td>Bug</td>
+    <td><a href="decc-81.html">Admin links not all updated to new URL</a></td>
+    <td>High</td>
+    <td>Jim Smith</td>
+  </tr>
+  <tr data-priority="low">
+    <th scope="row">83</th>
+    <td>Bug</td>
+    <td><a href="decc-83.html">Truncate extra zeros in calculated values</a></td>
+    <td>Low</td>
+    <td>Jim Smith</td>
+  </tr>
+  <tr data-priority="medium">
+    <th scope="row">84</th>
+    <td>Enhancement</td>
+    <td><a href="decc-84.html">Allow partial matches in searches; at least 3 characters required</a></td>
+    <td>Medium</td>
+    <td></td>
+  </tr>
+  </tbody>
+  </table>
+
+ </div>
+
+ <aside id="utilitynav">
+
+  <div>
+    <h2>Login &amp; Project</h2>
+    <ul>
+      <li><strong>Logged in as:</strong> testuser1</li>
+      <li><strong>Current project:</strong> <abbr title="Delta Construction">DECC</abbr></li>
+      <li><a href="change_project.html">Change Project</a></li>
+    </ul>
+  </div>
+ 
+  <div id="recentChanges" aria-live="polite">
+    <h2>Recent Changes</h2>
+    <noscript>Recent changes data could not be retrieved.</noscript>
+  </div>
+
+ </aside>
+
+</main>
+
+<nav id="globalnav">
+
+  <ul>
+    <li><a href="logout.html">Log Out</a></li>
+    <li><a href="preferences.html">Preferences</a></li>
+    <li><a href="all.html">View All</a></li>
+    <li><a href="closed.html">Closed</a></li>
+    <li class="currentTab"><strong>Open</strong></li>
+    <li><a href="create.html">Create</a></li>
+    <li><a href="index.html">Home</a></li>
+  </ul>
+
+</nav>
+
+<script src="js/workflow1.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body {font: 75%/2.0 verdana,geneva,lucida,arial,sans-serif;}
+table {border-collapse: collapse;}
+th, td {border: 1px solid #ccc; text-align: left; 
+        padding: .5em; vertical-align: top;}
+th {font-size: 110%;}
+.highlight {background: #000; color: #fff;}
+.path {background: #eee;}

@@ -1,0 +1,45 @@
+header, footer, main, nav, aside {display: block;}
+body {font: 75%/1.5 verdana,geneva,lucida,arial,sans-serif; padding: 0; margin: 0;}
+header {background: #ccc;}
+header h1 {font: 200%/1.5 tahoma,geneva,lucida,arial,sans-serif; position: relative; z-index: 5; width: 6em; letter-spacing: 2px; padding: 10px 20px; margin: 0;}
+table {border-collapse: collapse; width: 100%; border-spacing: 0;}
+th, td {border: 1px solid #ccc; padding: .5em; text-align: left; vertical-align: top;}
+
+#content {padding: 20px;}
+#content > div {float: left; width: 75%; margin-right: 3%;}
+#content h2 {margin: 0 0 .5em; font-size: 140%;}
+#content input {background: #fff; border: 2px solid #ccc; margin-right: .75em; cursor: pointer; padding: 4px 8px;}
+#content input[value="Show Low Priority"], #content input[value="Remove Row Highlight"], #content input[value="Show Type Column"] {background: #000; color: #fff; border-color: #fff;}
+#utilitynav h2, th {font-size: 110%; background: #000; color: #fff; padding: 6px;}
+#utilitynav h2 {font-size: 120%;}
+#globalnav {position: absolute; right: 0; top: 13px; background: #ccc;}
+#globalnav ul, #utilitynav ul {list-style: none; margin: 0; padding: 0; font-size: 120%;}
+#globalnav li {float: right; margin-right: 12px; display: inline-block;}
+#globalnav a, #globalnav strong {line-height: 1; padding: 7px; display: block; color: #000; text-decoration: none;}
+a {color: #000;}
+a:visited {color: #666;}
+#utilitynav {float: left; width: 22%; margin-top: 10px;}
+#utilitynav > div {border: 1px solid #ccc; margin-bottom: 1.5em;}
+#utilitynav li {padding: .5em; font-size: 90%;}
+#projectsTbl {margin-top: 2em;}
+#projectsTbl tbody th {background: #fff; color: #000; font-weight: normal;}
+
+/* behavior classes */
+.hideColumn td:nth-child(2), .hideColumn th:nth-child(2), .hidePriority [data-priority="low"] {display: none;}
+#projectsTbl.allowHighlight #currentRow th, #projectsTbl.allowHighlight #currentRow td {background: #ccc;}
+th a {color: #fff; display: block; text-decoration: none;}
+th a:visited {color: #fff;}
+.upArrow a {padding-left: 20px; background: url(../i/up-arrow.png) bottom left no-repeat;}
+.downArrow a {padding-left: 20px; background: url(../i/down-arrow.png) bottom left no-repeat;}
+
+
+@media print {
+
+  body, h1, h2 {font: 12pt/1.5 georgia,serif;}
+  h1 {font-size: 18pt;}
+  h2 {font-size: 15pt;}
+  #globalnav, #utilitynav, #content form {display: none;}
+  #content > div {float: none; width: 100%;}
+  th, td {padding: 5pt; color: #000;}
+
+}

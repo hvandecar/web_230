@@ -1,0 +1,37 @@
+{ 
+  "newsItems" : [
+
+  { "heading" : "News Item 1", 
+    "url" : "http://www.news.com/1/", 
+    "summary" : "Sample text sample text sample text sample text" },
+  
+  { "heading" : "News Item 2", 
+    "url" : "http://www.news.com/2/", 
+    "summary" : "Sample text sample text sample text sample text" },
+  
+  { "heading" : "News Item 3", 
+    "url" : "http://www.news.com/3/", 
+    "summary" : "Sample text sample text sample text sample text" },
+  
+  { "heading" : "News Item 4", 
+    "url" : "http://www.news.com/4/", 
+    "summary" : "Sample text sample text sample text sample text" },
+  
+  { "heading" : "News Item 5", 
+    "url" : "http://www.news.com/5/", 
+    "summary" : "Sample text sample text sample text sample text" },
+  
+  { "heading" : "News Item 6", 
+    "url" : "http://www.news.com/6/", 
+    "summary" : "Sample text sample text sample text sample text" },
+  
+  { "heading" : "News Item 7", 
+    "url" : "http://www.news.com/7/", 
+    "summary" : "Sample text sample text sample text sample text" },
+  
+  { "heading" : "News Item 8", 
+    "url" : "http://www.news.com/8/", 
+    "summary" : "Sample text sample text sample text sample text" }
+
+  ]
+}

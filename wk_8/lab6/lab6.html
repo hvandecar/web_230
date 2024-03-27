@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>Preliminary Election Poll</title>
+  <link rel="stylesheet" href="lab6.css" />
+</head>
+<body>
+
+  <h1>Election Poll</h1>
+  <p id="required">All fields are required.</p>
+  <form method="post" action="#">
+    <ul>
+      <li><label for="vote">Name:</label> <input type="text" name="voter_data" id="vote" size="35" /></li>
+      <li><label for="email">Email:</label> <input type="text" name="email_data" id="email" size="25" /></li>
+      <li><label for="city">City:</label> <input type="text" name="city_data" id="city" size="25" /></li>
+      <li><label for="state">State:</label> <input type="text" name="state_data" id="state" size="2" maxlength="2" /></li>
+      <li><label for="age">Age:</label> <input type="text" name="age_data" id="age" size="3" maxlength="3" /></li>
+      <li><label for="gender">Gender:</label>
+          <select name="gender_data" id="gender">
+            <option>Please Choose One...</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Non-Binary">Non-Binary</option>
+          </select>
+      </li>
+      <li><label for="choice">Your Choice:</label>
+          <select name="choice_data" id="choice">
+            <option>Please Choose One...</option>
+            <option value="Candidate1">Candidate 1</option>
+            <option value="Candidate2">Candidate 2</option>
+            <option value="Candidate3">Candidate 3</option>
+          </select>
+      </li>
+      <li><label for="sub">Enter Your Vote:</label><input type="submit" value="Submit" id="sub" /></li>
+    </ul>
+  </form>
+<script src="lab6.js"></script>
+</body>
+</html>

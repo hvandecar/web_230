@@ -1,0 +1,28 @@
+main, header, nav {display: block;}
+body, h1, h2 {font: 75% verdana,geneva,lucida,arial,sans-serif;}
+body, h1, h2, form {margin: 0; padding: 0;}
+h1 {font-size: 210%; line-height: 1; background: url(../i/data.png) 10px 13px no-repeat; padding: 10px 10px 1em 35px;}
+h2 {font-size: 160%; padding-right: 5px; display: inline;}
+input {font: 100% verdana,geneva,lucida,arial,sans-serif;}
+#skipnav, #utility, #helpBox {position: absolute;}
+#skipnav, #helpBox.remove {top: -9999px;}
+#masthead {background: #999; color: #fff;}
+#utility {top: 10px; right: 10px; font-size: 90%; color: #fff;}
+#utility a {color: #fff;}
+#nav {margin: 0 0 1em; padding: 0 10px .5em; list-style: none;}
+#nav li {display: inline; margin-right: .5em;}
+#nav a, #nav strong {background: #000; color: #fff; padding: .5em; text-decoration: none;}
+#nav a:hover, #nav a:focus, #nav strong {background: #fff; color: #000;}
+#content {padding: 10px;}
+#data {width: 100%; margin-top: 1em; border-spacing: 0;}
+#data th {font-size: 120%; font-weight: normal; font-variant: small-caps;}
+#data th, #data td {text-align: center; padding: .75em .25em; border-bottom: 1px solid #999;}
+#data input {border: 0; outline: 1px solid #ccc; width: 3em;}
+#data .marked {outline: 2px solid #000;}
+#submitBtn {border: 2px outset #999; background: #fff; cursor: pointer;}
+#helpWrapper {position: relative; display: inline;}
+#helpIcon {width: 17px; height: 17px;}
+#helpBox {top: 5px; left: -100px; width: 30em; padding: 5px; background: #fff; border: 2px solid #999; list-style: none;}
+#helpBox li {margin-bottom: 1em;}
+.ctr {text-align: center;}
+.readonly {background: #ccc;}
